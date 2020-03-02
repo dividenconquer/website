@@ -39,14 +39,14 @@ class RecentWork extends React.Component {
 
                 <div className="row m-0">
                     {/* <div className="works-slides"> */}
-                    <OwlCarousel 
+                    <OwlCarousel
                         className="works-slides owl-carousel owl-theme"
                         {...slideOptions}
                     >
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../static/images/works-image/works-image1.jpg")} alt="image" />
+                                    <img src={require("../../static/images/works-image/1.jpg")} alt="image" />
 
                                     <Link href="#">
                                         <a className="icon">
@@ -69,7 +69,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../static/images/works-image/works-image2.jpg")} alt="image" />
+                                    <img src={require("../../static/images/works-image/2.jpg")} alt="image" />
 
                                     <Link href="#">
                                         <a className="icon">
@@ -92,7 +92,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../static/images/works-image/works-image3.jpg")} alt="image" />
+                                    <img src={require("../../static/images/works-image/3.jpg")} alt="image" />
 
                                     <Link href="#">
                                         <a className="icon">
@@ -115,7 +115,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../static/images/works-image/works-image4.jpg")} alt="image" />
+                                    <img src={require("../../static/images/works-image/4.jpg")} alt="image" />
 
                                     <Link href="#">
                                         <a className="icon">
@@ -138,14 +138,14 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../static/images/works-image/works-image5.jpg")} alt="image" />
+                                    <img src={require("../../static/images/works-image/5.jpg")} alt="image" />
 
                                     <Link href="#">
                                         <a className="icon">
                                             <Icon.Settings />
                                         </a>
                                     </Link>
-                                    
+
                                     <div className="works-content">
                                         <h3>
                                             <Link href="#">

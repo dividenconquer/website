@@ -13,11 +13,11 @@ const NextArrow = (props) => {
         </button>
     );
 }
-  
+
 const PrevArrow = (props) => {
     const { onClick } = props;
     return (
-        <button 
+        <button
             className="prev-arrow slick-arrow"
             onClick={onClick}
         >
@@ -35,7 +35,7 @@ class Feedback extends React.Component {
         activeSlide: 0,
         activeSlide2: 0
     };
-    
+
     componentDidMount() {
         this.setState({
             imagesSlider: this.slider1,
@@ -85,14 +85,13 @@ class Feedback extends React.Component {
             cssEase: 'linear',
             fade: true,
             autoplay: true,
-            draggable: true,
             asNavFor: this.state.thumbnailsSlider,
             draggable: false,
             arrows: false,
             nextArrow: false,
             prevArrow: false
         }
-        
+
         const sliderSettings2 = {
             speed: 300,
             slidesToShow: 5,
@@ -177,51 +176,51 @@ class Feedback extends React.Component {
 
 const DEFAULT_PROPS = [
     {
-        name: 'David Gale', 
+        name: 'David Gale',
         profession: 'Web Developer',
-        image: require('../../static/images/client-image/client2.jpg'), 
+        image: require('../../static/images/client-image/2.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Matt Damon', 
+        name: 'Matt Damon',
         profession: 'Software Engineer',
-        image: require('../../static/images/client-image/client4.jpg'), 
+        image: require('../../static/images/client-image/4.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Nicky Parsons', 
+        name: 'Nicky Parsons',
         profession: 'Fictional Character',
-        image: require('../../static/images/client-image/client1.jpg'), 
+        image: require('../../static/images/client-image/1.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Jason Momoa', 
+        name: 'Jason Momoa',
         profession: 'American Actor',
-        image: require('../../static/images/client-image/client5.jpg'), 
+        image: require('../../static/images/client-image/5.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Gennady Korotkevich', 
+        name: 'Gennady Korotkevich',
         profession: 'Sport Programmer',
-        image: require('../../static/images/client-image/client3.jpg'), 
+        image: require('../../static/images/client-image/3.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Petr Mitrichev', 
+        name: 'Petr Mitrichev',
         profession: 'Russian Programmer',
-        image: require('../../static/images/client-image/client3.jpg'), 
+        image: require('../../static/images/client-image/3.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Reid W. Barton', 
+        name: 'Reid W. Barton',
         profession: 'Mathematics',
-        image: require('../../static/images/client-image/client2.jpg'), 
+        image: require('../../static/images/client-image/2.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        name: 'Lisa Sauermann', 
+        name: 'Lisa Sauermann',
         profession: 'Mathematician',
-        image: require('../../static/images/client-image/client1.jpg'), 
+        image: require('../../static/images/client-image/1.jpg'),
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
 ];

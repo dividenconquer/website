@@ -9,7 +9,7 @@ export default function ProjectContent() {
 				<div className="row">
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image1.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/1.jpg")} alt="image" />
                                 <Link href="/project-details">
                                     <a className="icon">
                                         <Icon.Settings />
@@ -29,7 +29,7 @@ export default function ProjectContent() {
 
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image2.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/2.jpg")} alt="image" />
                                 <Link href="/project-details">
                                     <a className="icon"><Icon.Settings /></a>
                                 </Link>
@@ -47,7 +47,7 @@ export default function ProjectContent() {
 
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image3.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/3.jpg")} alt="image" />
 
 							<Link href="/project-details">
                                 <a className="icon"><Icon.Settings /></a>
@@ -65,7 +65,7 @@ export default function ProjectContent() {
 
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image4.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/4.jpg")} alt="image" />
 
 							<Link href="/project-details">
                                 <a className="icon"><Icon.Settings /></a>
@@ -84,7 +84,7 @@ export default function ProjectContent() {
 
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image5.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/5.jpg")} alt="image" />
 
 							<Link href="/project-details">
                                 <a className="icon"><Icon.Settings /></a>
@@ -100,10 +100,10 @@ export default function ProjectContent() {
 							</div>
 						</div>
 					</div>
-					
+
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image1.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/1.jpg")} alt="image" />
 
 							<Link href="#">
                                 <a className="icon"><Icon.Settings /></a>
@@ -122,7 +122,7 @@ export default function ProjectContent() {
 
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image2.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/2.jpg")} alt="image" />
 
 							<Link href="/project-details">
                                 <a className="icon"><Icon.Settings /></a>
@@ -141,7 +141,7 @@ export default function ProjectContent() {
 
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image3.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/3.jpg")} alt="image" />
 
 							<Link href="/project-details">
                                 <a className="icon"><Icon.Settings /></a>
@@ -160,7 +160,7 @@ export default function ProjectContent() {
 
 					<div className="col-lg-4 col-md-6">
 						<div className="single-works">
-							<img src={require("../../static/images/works-image/works-image4.jpg")} alt="image" />
+							<img src={require("../../static/images/works-image/4.jpg")} alt="image" />
 
 							<Link href="/project-details">
                                 <a className="icon"><Icon.Settings /></a>

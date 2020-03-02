@@ -69,119 +69,119 @@ class ServicesArea extends React.Component {
 
                             <div className="col-lg-6 col-md-12 services-right-image">
                                 <ReactWOW delay='0.6s' animation='fadeInDown'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/book-self.png")} 
-                                        className="wow fadeInDown" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/book-self.png")}
+                                        className="wow fadeInDown"
+                                        data-wow-delay="0.6s"
                                         alt="book-self"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/box.png")} 
-                                        className="wow fadeInUp" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/box.png")}
+                                        className="wow fadeInUp"
+                                        data-wow-delay="0.6s"
                                         alt="box"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInLeft'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/chair.png")} 
-                                        className="wow fadeInLeft" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/chair.png")}
+                                        className="wow fadeInLeft"
+                                        data-wow-delay="0.6s"
                                         alt="chair"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/cloud.png")} 
-                                        className="wow zoomIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/cloud.png")}
+                                        className="wow zoomIn"
+                                        data-wow-delay="0.6s"
                                         alt="cloud"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='bounceIn'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/cup.png")} 
-                                        className="wow bounceIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/cup.png")}
+                                        className="wow bounceIn"
+                                        data-wow-delay="0.6s"
                                         alt="cup"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInDown'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/flower-top.png")} 
-                                        className="wow fadeInDown" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/flower-top.png")}
+                                        className="wow fadeInDown"
+                                        data-wow-delay="0.6s"
                                         alt="flower"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/head-phone.png")} 
-                                        className="wow zoomIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/head-phone.png")}
+                                        className="wow zoomIn"
+                                        data-wow-delay="0.6s"
                                         alt="head-phone"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/monitor.png")} 
-                                        className="wow fadeInUp" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/monitor.png")}
+                                        className="wow fadeInUp"
+                                        data-wow-delay="0.6s"
                                         alt="monitor"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='rotateIn'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/mug.png")} 
-                                        className="wow rotateIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/mug.png")}
+                                        className="wow rotateIn"
+                                        data-wow-delay="0.6s"
                                         alt="mug"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/table.png")} 
-                                        className="wow fadeInUp" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/table.png")}
+                                        className="wow fadeInUp"
+                                        data-wow-delay="0.6s"
                                         alt="table"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/tissue.png")} 
-                                        className="wow zoomIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/tissue.png")}
+                                        className="wow zoomIn"
+                                        data-wow-delay="0.6s"
                                         alt="tissue"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/water-bottle.png")} 
-                                        className="wow zoomIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/water-bottle.png")}
+                                        className="wow zoomIn"
+                                        data-wow-delay="0.6s"
                                         alt="water-bottle"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInLeft'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/wifi.png")} 
-                                        className="wow fadeInLeft" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/wifi.png")}
+                                        className="wow fadeInLeft"
+                                        data-wow-delay="0.6s"
                                         alt="wifi"
                                     />
                                 </ReactWOW>
-                                <img 
-                                    src={require("../../static/images/services-right-image/cercle-shape.png")} 
-                                    className="bg-image rotateme" 
+                                <img
+                                    src={require("../../static/images/services-right-image/cercle-shape.png")}
+                                    className="bg-image rotateme"
                                     alt="shape"
                                 />
                                 <ReactWOW delay='0.6s' animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../static/images/services-right-image/service-right-main-pic.png")} 
-                                        className="wow fadeInUp" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-right-image/main-pic.png")}
+                                        className="wow fadeInUp"
+                                        data-wow-delay="0.6s"
                                         alt="main-pic"
                                     />
                                 </ReactWOW>
@@ -195,80 +195,80 @@ class ServicesArea extends React.Component {
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-12 services-left-image">
                                 <ReactWOW delay='0.6s' animation='fadeInDown'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/big-monitor.png")} 
-                                        className="wow fadeInDown" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/big-monitor.png")}
+                                        className="wow fadeInDown"
+                                        data-wow-delay="0.6s"
                                         alt="big-monitor"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/creative.png")} 
-                                        className="wow fadeInUp" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/creative.png")}
+                                        className="wow fadeInUp"
+                                        data-wow-delay="0.6s"
                                         alt="creative"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInLeft'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/developer.png")} 
-                                        className="wow fadeInLeft" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/developer.png")}
+                                        className="wow fadeInLeft"
+                                        data-wow-delay="0.6s"
                                         alt="developer"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/flower-top.png")} 
-                                        className="wow zoomIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/flower-top.png")}
+                                        className="wow zoomIn"
+                                        data-wow-delay="0.6s"
                                         alt="flower-top"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='bounceIn'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/small-monitor.png")} 
-                                        className="wow bounceIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/small-monitor.png")}
+                                        className="wow bounceIn"
+                                        data-wow-delay="0.6s"
                                         alt="small-monitor"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInDown'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/small-top.png")} 
-                                        className="wow fadeInDown" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/small-top.png")}
+                                        className="wow fadeInDown"
+                                        data-wow-delay="0.6s"
                                         alt="small-top"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/table.png")} 
-                                        className="wow zoomIn" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/table.png")}
+                                        className="wow zoomIn"
+                                        data-wow-delay="0.6s"
                                         alt="table"
                                     />
                                 </ReactWOW>
                                 <ReactWOW delay='0.6s' animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/target.png")} 
-                                        className="wow fadeInUp" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/target.png")}
+                                        className="wow fadeInUp"
+                                        data-wow-delay="0.6s"
                                         alt="target"
                                     />
                                 </ReactWOW>
-                                
-                                <img 
-                                    src={require("../../static/images/services-left-image/cercle-shape.png")} 
-                                    className="bg-image rotateme" 
+
+                                <img
+                                    src={require("../../static/images/services-left-image/cercle-shape.png")}
+                                    className="bg-image rotateme"
                                     alt="shape"
                                 />
                                 <ReactWOW delay='0.6s' animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../static/images/services-left-image/service-left-main-pic.png")} 
-                                        className="wow fadeInUp" 
-                                        data-wow-delay="0.6s" 
+                                    <img
+                                        src={require("../../static/images/services-left-image/main-pic.png")}
+                                        className="wow fadeInUp"
+                                        data-wow-delay="0.6s"
                                         alt="main-pic"
                                     />
                                 </ReactWOW>

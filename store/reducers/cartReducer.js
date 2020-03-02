@@ -2,11 +2,11 @@ import { createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunkMiddleware from 'redux-thunk';
 
-import { 
+import {
     ADD_TO_CART,
     REMOVE_ITEM,
     SUB_QUANTITY,
-    ADD_QUANTITY, 
+    ADD_QUANTITY,
     ADD_SHIPPING,
     ADD_QUANTITY_WITH_NUMBER,
     RESET_CART
@@ -18,73 +18,73 @@ const initState = {
             id: 1,
             title: "Wood Pencil",
             price: 350,
-            image: require("../../static/images/shop-image/shop-image1.jpg")
+            image: require("../../static/images/shop-image/1.jpg")
         },
         {
             id: 2,
             title: "T-Shirt",
             price: 120,
-            image: require("../../static/images/shop-image/shop-image2.jpg")
+            image: require("../../static/images/shop-image/2.jpg")
         },
         {
             id: 3,
             title: "Casual Shoe",
             price: 160,
-            image: require("../../static/images/shop-image/shop-image3.jpg")
+            image: require("../../static/images/shop-image/3.jpg")
         },
         {
             id: 4,
             title: "Coffee Bag",
             price: 130,
-            image: require("../../static/images/shop-image/shop-image4.jpg")
+            image: require("../../static/images/shop-image/4.jpg")
         },
         {
             id: 5,
             title: "Single Chair",
             price: 90,
-            image: require("../../static/images/shop-image/shop-image5.jpg")
+            image: require("../../static/images/shop-image/5.jpg")
         },
         {
             id: 6,
             title: "Business Card",
             price: 180,
-            image: require("../../static/images/shop-image/shop-image6.jpg")
+            image: require("../../static/images/shop-image/6.jpg")
         },
         {
             id: 7,
             title: "Book Cover",
             price: 330,
-            image: require("../../static/images/shop-image/shop-image7.jpg")
+            image: require("../../static/images/shop-image/7.jpg")
         },
         {
             id: 8,
             title: "Wall Watch",
             price: 140,
-            image: require("../../static/images/shop-image/shop-image8.jpg")
+            image: require("../../static/images/shop-image/8.jpg")
         },
         {
             id: 9,
             title: "Wood Pencil",
             price: 430,
-            image: require("../../static/images/shop-image/shop-image1.jpg")
+            image: require("../../static/images/shop-image/1.jpg")
         },
         {
             id: 10,
             title: "T-Shirt",
             price: 650,
-            image: require("../../static/images/shop-image/shop-image2.jpg")
+            image: require("../../static/images/shop-image/2.jpg")
         },
         {
             id: 11,
             title: "Casual Shoe",
             price: 230,
-            image: require("../../static/images/shop-image/shop-image3.jpg")
+            image: require("../../static/images/shop-image/3.jpg")
         },
         {
             id: 12,
             title: "Coffee Bag",
             price: 670,
-            image: require("../../static/images/shop-image/shop-image4.jpg")
+            image: require("../../static/images/shop-image/4.jpg")
         }
     ],
     addedItems:[],
@@ -93,29 +93,29 @@ const initState = {
 }
 
 const cartReducer= (state = initState, action) => {
-   
+
     if(action.type === ADD_TO_CART){
         let addedItem = state.products.find(item => item.id === action.id)
         //check if the action id exists in the addedItems
         let existed_item= state.addedItems.find(item=> action.id === item.id)
         if(existed_item)
         {
-            addedItem.quantity += 1 
+            addedItem.quantity += 1
             return {
                 ...state,
-                total: state.total + addedItem.price 
+                total: state.total + addedItem.price
             }
         } else {
             addedItem.quantity = 1;
             //calculating the total
-            let newTotal = state.total + addedItem.price 
-            
+            let newTotal = state.total + addedItem.price
+
             return {
                 ...state,
                 addedItems: [...state.addedItems, addedItem],
                 total : newTotal
             }
-            
+
         }
     }
 
@@ -134,21 +134,21 @@ const cartReducer= (state = initState, action) => {
             addedItem.quantity = action.qty;
             //calculating the total
             let newTotal = state.total + addedItem.price * action.qty
-            
+
             return {
                 ...state,
                 addedItems: [...state.addedItems, addedItem],
                 total : newTotal
             }
-            
+
         }
     }
-    
+
 
     if(action.type === REMOVE_ITEM){
         let itemToRemove= state.addedItems.find(item=> action.id === item.id)
         let new_items = state.addedItems.filter(item=> action.id !== item.id)
-        
+
         //calculating the total
         let newTotal = state.total - (itemToRemove.price * itemToRemove.quantity );
 
@@ -161,7 +161,7 @@ const cartReducer= (state = initState, action) => {
 
     if(action.type === ADD_QUANTITY){
         let addedItem = state.products.find(item=> item.id === action.id)
-        addedItem.quantity += 1 
+        addedItem.quantity += 1
         let newTotal = state.total + addedItem.price
         return {
             ...state,
@@ -169,8 +169,8 @@ const cartReducer= (state = initState, action) => {
         }
     }
 
-    if(action.type === SUB_QUANTITY){  
-        let addedItem = state.products.find(item=> item.id === action.id) 
+    if(action.type === SUB_QUANTITY){
+        let addedItem = state.products.find(item=> item.id === action.id)
         //if the qt == 0 then it should be removed
         if(addedItem.quantity === 1){
             let new_items = state.addedItems.filter(item=>item.id !== action.id)
@@ -188,7 +188,7 @@ const cartReducer= (state = initState, action) => {
                 total: newTotal
             }
         }
-        
+
     }
 
     if(action.type === ADD_SHIPPING){
@@ -213,7 +213,7 @@ const cartReducer= (state = initState, action) => {
             shipping: 0
         }
     }
-    
+
     else {
         return state
     }
