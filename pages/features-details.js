@@ -40,7 +40,7 @@ class FeaturesDetails extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 features-details-image">
                                     <img 
-                                        src={require("../static/images/features-details-image/feature1.png")} 
+                                        src={require("../static/images/features-details-image/1.png")}
                                         className="wow fadeInUp" 
                                         alt="image" 
                                     />
@@ -75,7 +75,7 @@ class FeaturesDetails extends Component {
                                 
                                 <div className="col-lg-6 features-details-image">
                                     <img 
-                                        src={require("../static/images/features-details-image/feature2.png")} 
+                                        src={require("../static/images/features-details-image/2.png")}
                                         className="wow fadeInUp" 
                                         alt="image" 
                                     />

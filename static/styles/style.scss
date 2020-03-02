@@ -440,6 +440,11 @@ Navbar CSS
         padding-bottom: 15px;
     }
     nav {
+        a.navbar-brand{
+            img{
+                max-width: 169px;
+            }
+        }
         ul {
             padding: 0;
             margin: 0;
@@ -8004,7 +8009,7 @@ Agency CTA CSS
     position: relative;
     z-index: 1;
     background: {
-        image: url(../images/agency-image/agency-gradient-bg.jpg);
+        //image: url(../images/agency-image/agency-gradient-bg.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;

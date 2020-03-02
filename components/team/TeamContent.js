@@ -10,7 +10,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/1.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -50,7 +50,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team2.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/2.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -91,7 +91,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team3.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/3.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -132,7 +132,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team4.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/4.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -173,7 +173,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team5.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/5.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -214,7 +214,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team1.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/1.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -255,7 +255,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team2.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/2.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -296,7 +296,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team3.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/3.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">
@@ -337,7 +337,7 @@ export default function TeamContent() {
 					<div className="col-lg-4 col-md-6">
 						<div className="single-team">
 							<div className="team-image">
-								<img src={require("../../static/images/team-image/team4.jpg")} alt="image" />
+								<img src={require("../../static/images/team-image/4.jpg")} alt="image" />
 							</div>
 
 							<div className="team-content">

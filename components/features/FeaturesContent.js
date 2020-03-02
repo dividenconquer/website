@@ -257,7 +257,7 @@ export default function FeaturesContent() {
                             />
                             <ReactWOW delay='0.6s' animation='fadeInUp'>
                                 <img
-                                    src={require("../../static/images/services-right-image/service-right-main-pic.png")}
+                                    src={require("../../static/images/services-right-image/main-pic.png")}
                                     className="wow fadeInUp"
                                     data-wow-delay="0.6s"
                                     alt="main-pic"

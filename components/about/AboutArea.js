@@ -7,7 +7,7 @@ export default function About() {
 				<div className="row">
 					<div className="col-lg-6 col-md-12">
 						<div className="about-image">
-							<img src={require("../../static/images/about-one.png")} alt="image" />
+							<img src={require("../../static/images/about1.jpg")} alt="image" />
 						</div>
 					</div>
 

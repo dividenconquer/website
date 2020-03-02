@@ -91,23 +91,23 @@ export class ProductImage extends Component {
 const DEFAULT_PROPS = [
     {
         id: 1,
-        image: require('../../static/images/shop-image/shop-image1.jpg')
+        image: require('../../static/images/shop-image/1.jpg')
     },
     {
         id: 2,
-        image: require('../../static/images/shop-image/shop-image2.jpg')
+        image: require('../../static/images/shop-image/2.jpg')
     },
     {
         id: 3,
-        image: require('../../static/images/shop-image/shop-image3.jpg')
+        image: require('../../static/images/shop-image/3.jpg')
     },
     {
         id: 4,
-        image: require('../../static/images/shop-image/shop-image4.jpg')
+        image: require('../../static/images/shop-image/4.jpg')
     },
     {
         id: 5,
-        image: require('../../static/images/shop-image/shop-image5.jpg')
+        image: require('../../static/images/shop-image/5.jpg')
     }
 ];
 

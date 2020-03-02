@@ -43,7 +43,7 @@ export default class DetailsBody extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <div className="project-details-image">
-                                <img src={require("../../static/images/works-image/works-image2.jpg")} alt="work" />
+                                <img src={require("../../static/images/works-image/2.jpg")} alt="work" />
 
                                 <Icon.Plus onClick={() => this.setState({ isOpenImage: true })} />
                             </div>

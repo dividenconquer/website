@@ -39,7 +39,7 @@ class ServiceDetails extends Component {
                             </div>
 
                             <div className="col-lg-6 services-details-image">
-                                <img src={require("../static/images/services-details-image/services-details1.png")} className="wow fadeInUp" alt="image" />
+                                <img src={require("../static/images/services-details-image/1.png")} className="wow fadeInUp" alt="image" />
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@ class ServiceDetails extends Component {
 
                         <div className="row align-items-center">
                             <div className="col-lg-6 services-details-image">
-                                <img src={require("../static/images/services-details-image/services-details2.png")} className="wow fadeInUp" alt="image" />
+                                <img src={require("../static/images/services-details-image/2.png")} className="wow fadeInUp" alt="image" />
                             </div>
 
                             <div className="col-lg-6 services-details">

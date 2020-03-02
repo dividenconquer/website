@@ -133,13 +133,13 @@ export class ProductContent extends Component {
                                     <span>Guaranteed safe checkout:</span>
 
                                     <div className="payment-methods">
-                                        <img src={require("../../static/images/payment-image/payment-img1.svg")} alt="image" />
-                                        <img src={require("../../static/images/payment-image/payment-img2.svg")} alt="image" />
-                                        <img src={require("../../static/images/payment-image/payment-img3.svg")} alt="image" />
-                                        <img src={require("../../static/images/payment-image/payment-img4.svg")} alt="image" />
-                                        <img src={require("../../static/images/payment-image/payment-img5.svg")} alt="image" />
-                                        <img src={require("../../static/images/payment-image/payment-img6.svg")} alt="image" />
-                                        <img src={require("../../static/images/payment-image/payment-img7.svg")} alt="image" />
+                                        <img src={require("../../static/images/payment-image/1.svg")} alt="image" />
+                                        <img src={require("../../static/images/payment-image/2.svg")} alt="image" />
+                                        <img src={require("../../static/images/payment-image/3.svg")} alt="image" />
+                                        <img src={require("../../static/images/payment-image/4.svg")} alt="image" />
+                                        <img src={require("../../static/images/payment-image/5.svg")} alt="image" />
+                                        <img src={require("../../static/images/payment-image/6.svg")} alt="image" />
+                                        <img src={require("../../static/images/payment-image/7.svg")} alt="image" />
                                     </div>
                                 </div>
 

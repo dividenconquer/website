@@ -13,7 +13,7 @@ export default class BlogBody extends React.Component {
                                 <div className="blog-image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src={require("../../static/images/blog-image/blog1.jpg")} alt="image" />
+                                            <img src={require("../../static/images/blog-image/1.jpg")} alt="image" />
                                         </a>
                                     </Link>
 
@@ -48,7 +48,7 @@ export default class BlogBody extends React.Component {
                                 <div className="blog-image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src={require("../../static/images/blog-image/blog2.jpg")} alt="image" />
+                                            <img src={require("../../static/images/blog-image/2.jpg")} alt="image" />
                                         </a>
                                     </Link>
 
@@ -84,7 +84,7 @@ export default class BlogBody extends React.Component {
                                 <div className="blog-image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src={require("../../static/images/blog-image/blog3.jpg")} alt="image" />
+                                            <img src={require("../../static/images/blog-image/3.jpg")} alt="image" />
                                         </a>
                                     </Link>
 
@@ -120,7 +120,7 @@ export default class BlogBody extends React.Component {
                                 <div className="blog-image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src={require("../../static/images/blog-image/blog4.jpg")} alt="image" />
+                                            <img src={require("../../static/images/blog-image/1.jpg")} alt="image" />
                                         </a>
                                     </Link>
 
@@ -152,7 +152,7 @@ export default class BlogBody extends React.Component {
                                 <div className="blog-image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src={require("../../static/images/blog-image/blog5.jpg")} alt="image" />
+                                            <img src={require("../../static/images/blog-image/3.jpg")} alt="image" />
                                         </a>
                                     </Link>
 
@@ -184,7 +184,7 @@ export default class BlogBody extends React.Component {
                                 <div className="blog-image">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src={require("../../static/images/blog-image/blog6.jpg")} alt="image" />
+                                            <img src={require("../../static/images/blog-image/3.jpg")} alt="image" />
                                         </a>
                                     </Link>
 

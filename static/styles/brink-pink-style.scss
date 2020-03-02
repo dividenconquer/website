@@ -72,6 +72,11 @@ a {
 
 .startp-nav {
     nav {
+        a.navbar-brand{
+            img{
+                max-width: 169px;
+            }
+        }
         .navbar-nav {
             .nav-item {
                 a {

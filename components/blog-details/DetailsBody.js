@@ -133,7 +133,7 @@ export default class BlogBody extends React.Component {
                                 <h3>Comments</h3>
                                 <div className="single-comment">
                                     <div className="comment-img">
-                                        <img src={require("../../static/images/team-image/team1.jpg")} alt="client" />
+                                        <img src={require("../../static/images/team-image/1.jpg")} alt="client" />
                                     </div>
                                     <div className="comment-content">
                                         <h4>John Smith</h4>
@@ -147,7 +147,7 @@ export default class BlogBody extends React.Component {
                                 
                                 <div className="single-comment left-m">
                                     <div className="comment-img">
-                                        <img src={require("../../static/images/team-image/team2.jpg")} alt="client" />
+                                        <img src={require("../../static/images/team-image/2.jpg")} alt="client" />
                                     </div>
                                     <div className="comment-content">
                                         <h4>Doe John</h4>
@@ -161,7 +161,7 @@ export default class BlogBody extends React.Component {
                                 
                                 <div className="single-comment">
                                     <div className="comment-img">
-                                        <img src={require("../../static/images/team-image/team3.jpg")} alt="client" />
+                                        <img src={require("../../static/images/team-image/3.jpg")} alt="client" />
                                     </div>
                                     <div className="comment-content">
                                         <h4>Steven Doe</h4>
@@ -175,7 +175,7 @@ export default class BlogBody extends React.Component {
                                 
                                 <div className="single-comment">
                                     <div className="comment-img">
-                                        <img src={require("../../static/images/team-image/team5.jpg")} alt="client" />
+                                        <img src={require("../../static/images/team-image/5.jpg")} alt="client" />
                                     </div>
                                     <div className="comment-content">
                                         <h4>John Cina</h4>

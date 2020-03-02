@@ -6,7 +6,6 @@ import { initStore } from '../store/reducers/cartReducer';
 import Head from 'next/head'
 import React from 'react';
 
-
 export default withRedux(initStore)(
     class MyApp extends App {
 
@@ -21,16 +20,6 @@ export default withRedux(initStore)(
         render () {
             const { Component, pageProps, store } = this.props
 
-            let { query } = this.props.router;
-            
-            let style = ''; 
-            if (query.style == 'brink-pink') {
-                style = 'brink-pink-style.css'
-            } else if (query.style == 'pink') {
-                style = 'pink-style.css'
-            } else if (query.style == 'purple') {
-                style = 'purple-style.css'
-            }
             return (
               <Container>
                 <DefaultSeo
@@ -46,7 +35,7 @@ export default withRedux(initStore)(
                 />
                 <Head>
                     <link rel="stylesheet" type="text/css" href={`/static/styles/style.css`} key="color1" />
-                    <link rel="stylesheet" type="text/css" href={`/static/styles/${style}`} key="color" />
+                    <link rel="stylesheet" type="text/css" href={`/static/styles/pink-style.css`} key="color" />
                     <link rel="stylesheet" type="text/css" href={`/static/css/responsive.css`} key="res" />
                 </Head>
                 <Provider store={store}>
